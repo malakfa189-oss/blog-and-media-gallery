@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="معرض وسائط متعددة يضم الصوت والفيديو والخرائط والصور">
+    <title>معرض الوسائط المتعددة</title>
+</head>
+<body>
+
+    <!-- ======================================= -->
+    <!-- TODO 1: PAGE HEADER & NAVIGATION -->
+    <!-- ======================================= -->
+    <header>
+        <h1>معرض الوسائط المتعددة</h1>
+        <nav aria-label="التنقل بين أقسام المعرض">
+            <ul>
+                <li><a href="#audio">الصوت</a></li>
+                <li><a href="#video">الفيديو</a></li>
+                <li><a href="#map">الخريطة</a></li>
+                <li><a href="#gallery">معرض الصور</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ======================================= -->
+        <!-- TODO 2: AUDIO SECTION -->
+        <!-- ======================================= -->
+        <section id="audio">
+            <h2>مشغّل الصوت</h2>
+            <figure>
+                <audio controls>
+                    <source src="514577__lilmati__an-airplane-flying-overhead.wav" type="audio/wav">
+                    متصفحك لا يدعم عنصر تشغيل الصوت.
+                </audio>
+                <figcaption>مقطع صوتي لصوت تحليق طائرة في السماء.</figcaption>
+            </figure>
+        </section>
+
+        <!-- ======================================= -->
+        <!-- TODO 3: VIDEO SECTION -->
+        <!-- ======================================= -->
+        <section id="video">
+            <h2>مشغّل الفيديو</h2>
+            <figure>
+                <video controls width="640" poster="غلاف الفيديو.png">
+                    <source src="15380256_3840_2160_30fps.mp4" type="video/mp4">
+                    متصفحك لا يدعم عنصر تشغيل الفيديو.
+                </video>
+                <figcaption>فيديو يوضح تحليق طائرة بين السحب بدقة عالية.</figcaption>
+            </figure>
+        </section>
+
+        <!-- ======================================= -->
+        <!-- TODO 4: MAP SECTION -->
+        <!-- ======================================= -->
+        <section id="map">
+            <h2>موقعنا</h2>
+            <figure>
+                <iframe
+                    src="https://www.google.com/maps?q=Al-Aqsa+University,+Gaza,+Palestine&output=embed"
+                    width="600"
+                    height="400"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="خريطة توضح موقع جامعة الأقصى في غزة، فلسطين">
+                </iframe>
+                <figcaption>جامعة الأقصى، غزة، فلسطين</figcaption>
+            </figure>
+        </section>
+
+        <!-- ======================================= -->
+        <!-- TODO 5: IMAGE GALLERY SECTION -->
+        <!-- ======================================= -->
+        <section id="gallery">
+            <h2>معرض الصور</h2>
+
+            <figure>
+                <img src="pexels-taraschuiko-19295332.jpg" alt="طائرة تحلق عالياً في سماء زرقاء صافية فوق الأشجار" width="400">
+                <figcaption>الصورة 1: طائرة في السماء الزرقاء.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="pexels-njeromin-14760609.jpg" alt="طائرة تحلق في سماء غائمة بالقرب من الأشجار" width="400">
+                <figcaption>الصورة 2: تحليق طائرة تحت الغيوم.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="pexels-mariamarselle-11614836.jpg" alt="طائرة تحلق وسط سحب متفرقة في السماء" width="400">
+                <figcaption>الصورة 3: طائرة بين السحب.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="pexels-dilara-haziroglu-2213557-29900522.jpg" alt="منظر جناح الطائرة والسحاب من داخل نافذة الطائرة" width="400">
+                <figcaption>الصورة 4: إطلالة من نافذة الطائرة فوق السحاب.</figcaption>
+            </figure>
+
+        </section>
+
+    </main>
+
+    <!-- ======================================= -->
+    <!-- TODO 6: FOOTER -->
+    <!-- ======================================= -->
+    <footer>
+        <p>&copy; 2026 معرض الوسائط المتعددة. جميع الحقوق محفوظة.</p>
+        <address>
+            إعداد <a href="mailto:malak.fa189@gmail.com">ملك فايز العسلي</a>
+        </address>
+    </footer>
+
+</body>
+</html>
